@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jagi:astronomy-timestamp-behavior',
-  version: '2.0.0-rc.3',
+  version: '2.0.0-rc.4',
   summary: 'Timestamp behavior for Meteor Astronomy',
   git: 'https://github.com/jagi/meteor-astronomy-timestamp-behavior.git'
 });
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use([
     'ecmascript',
     'es5-shim',
-    'jagi:astronomy@2.0.0-rc.6',
+    'jagi:astronomy@2.0.0-rc.7',
     'stevezhu:lodash@4.6.1'
   ], ['client', 'server']);
 

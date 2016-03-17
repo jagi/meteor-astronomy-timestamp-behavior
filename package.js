@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     'ecmascript',
     'es5-shim',
     'jagi:astronomy@2.0.0-rc.6',
-    'stevezhu:lodash@4.5.0'
+    'stevezhu:lodash@4.6.1'
   ], ['client', 'server']);
 
   api.mainModule('lib/main.js', ['client', 'server']);
